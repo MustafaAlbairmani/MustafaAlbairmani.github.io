@@ -1,5 +1,7 @@
 # MustafaAlbairmani.github.io
 
+
+## Work Experience
 Bachelor of science, Electrical and Computer Engineering, (Computer Engineering path)
 The Ohio State University, Columbus, Ohio (December 2023)
 Relative coursework: Algorithms & Data Structures, Operating Systems, Computer networks, Computer architecture & design, mobile applications, Databases, Software Design, Advanced digital design, Cybersecurity.
