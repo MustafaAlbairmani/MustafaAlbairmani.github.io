@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1</title>
+    <style>
+        .image-container {
+            text-align: center;
+            margin: 20px;
+        }
+        .image-container img {
+            max-width: 50%; /* You can adjust this value to your preference */
+            height: auto;
+        }
+    </style>
 </head>
 <body>
 
 <h1>Project 1 Gallery</h1>
 
-
-
-    <div style="text-align:center; margin: 20px;"> <!-- Center the image and add some margin -->
-    <img src="assets/img/a.jpg" alt="Description" style="max-width:100%; height:auto;"> <!-- Image will scale down if it's larger than its container -->
-    <p>Description for the image.</p>
-
+<div class="image-container">
+    <img src="assets/img/a.jpg" alt="Description for image A">
+    <p>Description for image A.</p>
 </div>
 
-
-     <div style="text-align:center; margin: 20px;"> <!-- Center the image and add some margin -->
-    <img src="assets/img/b.jpg" alt="Description" style="max-width:100%; height:auto;"> <!-- Image will scale down if it's larger than its container -->
-    <p>Description for the image.</p>
+<div class="image-container">
+    <img src="assets/img/b.jpg" alt="Description for image B">
+    <p>Description for image B.</p>
 </div>
 
 <!-- Repeat the pattern for each picture -->
 
 </body>
 </html>
+
 
