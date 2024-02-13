@@ -6,19 +6,25 @@
     <title>Project 1</title>
     <style>
         .image-container {
-            text-align: center;
+            text-align: left;
             margin: 20px;
         }
         .image-container img {
-            max-width: 50%; /* You can adjust this value to your preference */
-            height: auto;
-        }
+          max-width: 50%; /* Adjust this value to your preference */
+          max-height: 200px; /* This will ensure that the image is not longer than 200px */
+          height: auto; /* This will ensure the image's height is scaled proportionally to the width */
+    }
     </style>
 </head>
 <body>
 
 <h1>Project 1 Gallery</h1>
 
+<div class="image-container">
+    <img src="assets/img/c.jpg" alt="Description for image B">
+    <p>Description for image B.</p>
+</div>
+    
 <div class="image-container">
     <img src="assets/img/a.jpg" alt="Description for image A">
     <p>Description for image A.</p>
